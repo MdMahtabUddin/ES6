@@ -18,3 +18,5 @@ for (let number of numbers){
 const output = numbers.map(doubleIt);
 console.log(output);
 
+const squares = numbers.map(x => x * x);
+console.log(squares);
